@@ -1,0 +1,253 @@
+/* Universlav Styles */
+
+html {
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  background-color: white;
+      
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#friendsfrom img{
+    height: 400px;
+    width: 300px;
+}
+
+p{
+    font-style: oblique;
+    color: white;
+    background-color: darkslateblue;
+}
+h2{
+    font-weight: bold;
+    color: white;
+    background-color: darkslateblue;
+}
+
+/* Header */
+
+header{
+    background-image: url(https://www.rsatravelpartners.com/sites/rsatravelpartners.com/files/santa-claus-flying-on-the-sky_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+
+nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: darkslateblue;
+  color: white;
+    width: 100%;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+nav ul {
+  margin-right: 1rem;
+    background-color: white;
+}
+
+nav li {
+  display: inline;
+  padding: 0 1rem;
+
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.main-banner {
+  display: inline-block;
+  position: static;
+  padding: 0.5rem 1rem;
+  margin-top: 18rem;
+  margin-right: -2rem;
+  margin-left: 30rem;
+  background-color: white;
+ 
+}
+
+h1 {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+    
+    @media only screen and (max-width: 1024px) {
+  header {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  nav.container {
+    max-width: 100%;
+  }
+
+  .main-banner {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .main-banner h1 {
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .menu ul {
+    display: none;
+  }
+
+  .menu ul.truncated-menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  header div span {
+    display: none;
+  }
+
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .main-banner {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 9rem auto 0 auto;
+    text-align: center;
+  }
+
+  .main-banner h1 {
+    font-size: 1rem;
+  }
+}
+
+
+ /* Main part */
+    
+.main-section{
+    display: flex;
+    margin-top: 2rem;
+} 
+#parents {
+        display: flex;
+        border: black solid 3px;
+        margin-right: 3rem;
+    
+    }    
+
+#friends{
+    border: solid black 3px;
+    text-align: left;
+   
+}
+
+.lol{
+    text-decoration: line-through;
+}
+
+#friendsfrom{
+    display: flex;
+    text-align: center;
+    
+}
+
+.list{
+    display: inline-flex;
+    flex-wrap: wrap;
+    border: black solid 3px;
+    
+}
+
+.person{
+    border-bottom: black solid 1px;
+    display: block;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 560px) {
+  .parents {
+    height: auto;
+    margin: .77rem;
+    font-size: .77rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .friends {
+    height: auto;
+    margin: .77rem;
+    font-size: .77rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .friendsfrom {
+    height: auto;
+    margin: .77rem;
+    font-size: .77rem;
+  }
+}
+
+/* Conclusion */
+
+.conclusion{
+    display: flex;
+}
+
+.conclusion h3{
+    text-decoration-line: underline;
+}
+.conclusion img {
+    height: 600px;
+    width: 600px;
+}
+
+.footer{
+    display: flex;
+    background-color: darkslateblue;
+    
+}
+
+.footer p{
+    background-color: darkslateblue;
+     margin-right: 33rem;
+}
+
+.footer h3 {
+    color: white;
+}
+
+.none{
+    display: flex;
+    
+}
